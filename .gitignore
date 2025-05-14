@@ -1,0 +1,54 @@
+# Build directories
+/bin/
+/target/
+/build/
+
+# Eclipse/STS project files
+/.classpath
+/.project
+/.settings/
+.apt_generated/
+.factorypath
+/.sts4-cache/
+.metadata/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IDE-specific files
+.idea/
+*.iml
+*.iws
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Maven files
+.mvn/
+!**/src/main/**/.keep
+
+# Gradle files
+.gradle/
+build/
+
+# OS-specific files
+ehthumbs.db
+Icon?
+
+# Environment variables
+.env
+
+# Exclude files in the Tarefa_Controles_De_Fluxo folder
+Tarefa_Controles_De_Fluxo/bin/
+Tarefa_Controles_De_Fluxo/target/
+Tarefa_Controles_De_Fluxo/.settings/
+Tarefa_Controles_De_Fluxo/.metadata/
+
+# SonarLint folder
+.sonarlint/
